@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  
+<!-- Mirrored from imi.radxrad.org/users/sign_up by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Mar 2025 15:49:42 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <title>IMI</title>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="apzp5UWhxeyT0XXNqXAQo-ecfkoFjYF2rlKaRVzdWQktAU_Raw7IXPu7RDNHI7ILPhyAXAT88GlnlbOxAR3xWQ" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" media="all" href="../assets/application-db0eb5d1cc91ba8bccb5d0f37754e4d93571a8c26889ec6f5b7986cf1a639ee5.css" />
+    <script src="../assets/application-eb0ace1eed65d2d05645145d4f743a30c7f55f6a11dd18a6e463cff5c449e72f.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+  </head>
+
+  <body>  
+    <nav class="navbar navbar-expand-xl navbar-fixed-top justify-content-between main-header">
+  <div class="navbar-brand">
+    <a class="brand-logo" href="../index.html" style="padding-left: 24px; padding-bottom: 10px;"><img style="height:28px;" src="../assets/imi-radxrad-logo-39b9d896c891b0c4b995ec49316c5de889e37b78a0702d21c5b0f0f84d71c5d0.svg" /></a>
+  </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="mainMenu">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav-link" href="sign_up.html">SIGN UP</a></li>
+        <li class="nav-item"><a class="nav-link" href="sign_in.html">LOG IN</a></li>
+    </ul>
+  </div>
+      
+</nav>
+    <div id="message">
+        
+  
+  
+  
+
+<script>
+  $(".alert").alert();
+  $('#message').show();
+  $('#message').css('left', ($(window).width()/2 - $('#message').width()/2) +'px')
+  // window.setTimeout(function() { $(".alert").alert('close'); }, 1500);
+</script>
+
+    </div> 
+    <main role="main">
+      <div class="container">
+  <form class="new_user" id="new_user" action="https://imi.radxrad.org/users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="r5TKVeo0lOLG2ufuurVOXuhikJvA7LTTS6-WXclBkVyq8a4JuImFASrs3WlS_yeaZDjc4mH_mf7BoCg2F3Hg4g" />
+    
+
+    <div class="row">
+      <div class="col-sm-12 top-row">
+        <div class="card">
+          <div class="card-content">
+            <h5 class="card-title center ml-3">Sign up</h5>
+            <form>
+              <div class="row no-margin">
+                <div class="input-field col-md-6 form-group">
+                  <label for="first_name">First name <span class="required">*</span></label>
+                  <input class="form-control" type="text" value="" name="user[first_name]" id="user_first_name" />
+
+                </div>
+                <div class="input-field col-md-6 form-group">
+                  <label for="last_name">Last name <span class="required">*</span></label>
+                  <input class="form-control" type="text" value="" name="user[last_name]" id="user_last_name" />   
+                </div>
+              </div>
+              <div class="row no-margin">
+                <div class="input-field col-md-12 form-group">
+                  <label for="email" class="active">Email <span class="required">*</span></label>
+                  <input class="form-control" autocomplete="new-password" type="text" value="" name="user[email]" id="user_email" />
+                  
+                </div>
+              </div>
+              <div class="row no-margin">
+                <div class="input-field col-md-12 form-group">
+                  <label for="password" class="active">Password <span class="required">*</span></label>
+                  <input autocomplete="new-password" class="form-control" type="password" name="user[password]" id="user_password" />
+                  
+                </div>
+              </div>
+              <div class="row no-margin">
+                <div class="input-field col-md-12 form-group">
+                  <label for="password_confirmation">Password Confirmation <span class="required">*</span></label>
+                  <input class="form-control" type="password" name="user[password_confirmation]" id="user_password_confirmation" />
+                  
+                </div>
+              </div>
+
+              <div class="row no-margin">
+                <div class="input-field col-md-12 mt-3">
+                  <label>
+                    <input name="user[is_manager]" type="hidden" value="0" /><input type="checkbox" value="1" name="user[is_manager]" id="user_is_manager" />
+                    <span>I am in charge of the CDE mapping for the following projects</span>
+                  </label>
+                </div>
+              </div>
+              <br>
+              <br>
+              <div class="row no-margin">
+                <div class="input-field col m12 s12">
+                  <label class="" data-shrink="true" id="radx_project">Please select radx projects:</label>
+                  <div class="validate" >
+                      <h6 class='card-title text-info pt-3'>Automatic Detection and Tracing : RFA-OD-20-014 </h6>
+                      <ul class='radx-list'>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U01AA029328-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Diana Vanegas</span> - Development of an Automated Diagnostic Platform for SARS-CoV-2 Monitoring in Vulnerable Areas</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U01AA029331-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">John Cirrito</span> - Nanobody-based Electrochemical Biosensor for Real-Time Detection of Aerosolized SARS-CoV-2</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U01AA029345-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Khalid Salaita</span> - Rolosense: An Innovative Platform for Automatic Mobile Phone Readout of Active SARS-CoV-2 Particles</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U01AA029324-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Radislav Potyrailo</span> - Minimal False-alarm Touch-based Detection of SARS-Cov-2 Virus Particles using Poly-aptamers</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U01AA029316-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Suzie Pun</span> - Touchscreen-compatible, Real-Time Electrochemical Sensing of SARS-CoV-2</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U01AA029348-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Lu Peng</span> - Detection and Automatic Privacy-Protected Contact Tracing System Designed for COVID-19</span></label></li>
+                      </ul>
+                      <h6 class='card-title text-info pt-3'>Chemosensory Testing : RFA-OD-20-022 </h6>
+                      <ul class='radx-list'>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U01DC019579-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Daniel Tatar, Mark Albers</span> - Longitudinal at Home Smell Testing to Detect Infection by SARS-CoV-2</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U01DC019578-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Pamela Dalton</span> - SCENTinel: A Rapid Smell Test for COVID-19 Surveillance</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U01DC019573-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Steven Munger</span> - Rapid Olfactory Tools for Telemedicine-friendly COVID-19 Screening and Surveillance</span></label></li>
+                      </ul>
+                      <h6 class='card-title text-info pt-3'>Chemosensory Testing : NOT-OD-20-152 </h6>
+                      <ul class='radx-list'>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="3-R01DC016112-04S1" /></span>
+                        <span><span class="font-weight-bold align-self-center">Susan Travers</span> - A Confectionary-based Screening Tool for Assessing Chemosensory Loss in COVID-19 Patients</span></label></li>
+                      </ul>
+                      <h6 class='card-title text-info pt-3'>Exosome Based : RFA-OD-20-018 </h6>
+                      <ul class='radx-list'>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U18TR003780-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Samarjit Das</span> - Exosome-based Non-traditional Technologies Towards Multi-Parametric and Integrated Approaches for SARS-CoV-2</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U18TR003807-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Eduardo Reategui</span> - Multi-parametric Integrated Molecular Detection of SARS-CoV-2 from Biofluids by Adapting Single Extracellular Vesicle Characterization Technologies</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U18TR003793-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Shannon Stott</span> - Microfluidic Isolation and Characterization of SARS-CoV-2 and Virus Related Exosomes</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="4-U54HL119145-08" /></span>
+                        <span><span class="font-weight-bold align-self-center">David Wong</span> - AFS/SERS Saliva-based SARS-CoV-2 Earliest Infection and Antibodies Detection</span></label></li>
+                      </ul>
+                      <h6 class='card-title text-info pt-3'>NIEHS Diagnostic/Prognostic RNAseq	  : Z01-ES100475 </h6>
+                      <ul class='radx-list'>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1ZIAES100475-19" /></span>
+                        <span><span class="font-weight-bold align-self-center">Douglas Bell</span> - Hyperplexed sample barcoded screening for SARS-CoV-2 by Next Generation Sequencing</span></label></li>
+                      </ul>
+                      <h6 class='card-title text-info pt-3'>Multimodal Surveillance : RFA-OD-20-016 </h6>
+                      <ul class='radx-list'>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-R01NR020105-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Michael Snyder</span> - Multi-modal Wireless COVID Monitoring &amp; Infection Alerts for Concentrated Populations</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-R01DE031114-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Jesse Jokerst</span> - Validation of Smart Masks for Surveillance of COVID-19</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-R01MD016526-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Ka&#39;imi A. Sinclair</span> - Marshallese: Alternate Surveillance for COVID-19 in a Unique Population</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-R01DK130067-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Yuedong Wang</span> - Early Detection, Containment, and Management of COVID-19 in Dialysis Facilities Using Multi-Modal Data Sources</span></label></li>
+                      </ul>
+                      <h6 class='card-title text-info pt-3'>Novel Biosensing and VOC : NOT-OD-21-035, PA-20-272 </h6>
+                      <ul class='radx-list'>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="5-U01HL150852-02" /></span>
+                        <span><span class="font-weight-bold align-self-center">Edward DeMauro</span> - A Rapid Breathalyzer Diagnostics Platform for COVID-19</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U01HL152410-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Jie Huang</span> - MOF-SCENT: Metal-organic Frameworks for Screening COVID-19 by Electronic-Nose Technology to Improve Selectivity and Time Response</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="3-U01HL152401-02S1" /></span>
+                        <span><span class="font-weight-bold align-self-center">Devin MacKenzie</span> - Broad-spectrum Detection of VOC and Non-VOC Biomarkers from Patient Exhalant using Biomimetic Multiplexed eNose Biosensor for COVID-19 Diagnosis</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="5U54HL119145-07" /></span>
+                        <span><span class="font-weight-bold align-self-center">Hadi Shafiee</span> - RADx-rad: A Rapid, Sensitive, Point-of-care, Antigen-based Diagnostics for SARS-CoV-2</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="3U54HL119145-07S1" /></span>
+                        <span><span class="font-weight-bold align-self-center">Selim Ünlü</span> - Virus Counter: Rapid and Sensitive Diagnostics Based on Digital Detection of Individual Pathogens</span></label></li>
+                      </ul>
+                      <h6 class='card-title text-info pt-3'>Novel Biosensing and VOC : RFA-OD-20-020 </h6>
+                      <ul class='radx-list'>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-R44DE030841-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Erik Young</span> - Direct Bioelectronic Detection of SARS-Cov-2 from Saliva using Singlemolecule Field-effect Transistor Array</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-R44DE030842-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Mark Bobrow</span> - A Scalable Aptamer-based Electrochemical Biosensor for Rapid Detection of SARS-Cov-2 from Saliva</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-R44DE030852-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Xiaohu (Sherwood) Yao</span> - Designer DNA Nanostructure Based Biosensing for Rapid COVID-19 Detection and Monitoring using Saliva Sample</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="3U54HL119145-07S1" /></span>
+                        <span><span class="font-weight-bold align-self-center">Mahmoud Nasr</span> - A Rapid Saliva Antigen Test for SARS-CoV-2 Detection</span></label></li>
+                      </ul>
+                      <h6 class='card-title text-info pt-3'>Novel Biosensing and VOC : RFA-OD-20-021 </h6>
+                      <ul class='radx-list'>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-R42DE030829-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Roya Khosravi-Far</span> - A Multimodal Platform for Oral Screening of COVID-19</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-R42DE030832-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Tim Gordon</span> - A SARS-CoV-2 Breathalyzer for Direct Virus Detection</span></label></li>
+                      </ul>
+                      <h6 class='card-title text-info pt-3'>PreVAIL kIds : RFA-OD-20-023 </h6>
+                      <ul class='radx-list'>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1R61HD105618-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Charles Yen Chiu</span> - Discovery and Clinical Validation of Host Biomarkers of Disease Severity and Multi-System Inflammatory Syndrome in Children (MIS-C) with COVID-19</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-R61HD105593-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Ananth Annapragada</span> - AICORE-kids: Artificial Intelligence COVID-19 Risk AssEssment for kids</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-R61HD105594-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Audrey Odom John</span> - Diagnosis of MIS-C in Febrile Children</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-R61HD105591-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Cedric Manlhiot</span> - A Data Science Approach to Identify and Manage Multisystem Inflammatory Syndrome in Children (MIS-C) Associated with SARS-CoV-2 Infection and Kawasaki Disease (KD) in Pediatric Patients</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-R61HD105619-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Lawrence Kleinman</span> - COVID-19 Network of Networks Expanding Clinical and Translational Approaches to Predict Severe Illness in Children (CONNECT to Predict Sick Children)</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-R61HD105590-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Jane Burns</span> - Diagnosing and Predicting Risk in Children with SARS-CoV-2- Related Illness</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-R61HD105613-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Juan Salazar</span> - Identifying Biomarker Signatures of Prognostic Value for Multisystem Inflammatory Syndrome in Children (MIS-C)</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-R61HD105610-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Usha Sethuraman</span> - Severity Predictors Integrating Salivary Transcriptomics and Proteomics with Multi Neural Network Intelligence in SARS-CoV2 Infection in Children (SPITS MISC)</span></label></li>
+                      </ul>
+                      <h6 class='card-title text-info pt-3'>SCENT : RFA-OD-20-017 </h6>
+                      <ul class='radx-list'>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U18TR003775-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Alan Johnson</span> - Effective, Reagent-free Detection of the Odor Signature of Covid-19 Infection Using a Nano-Enabled Sensor Array</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U18TR003795-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Cristina Davis</span> - Portable GC Detector for Breath-based COVID Diagnostics</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U18TR003787-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Xiao-An Fu</span> - A Handheld Microchip for GC Analysis of Breath to Screen for COVID-19</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U18TR003812-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Xudong Fan</span> - COVID-19 Detection through Scent Analysis with a Compact GC Device</span></label></li>
+                      </ul>
+                      <h6 class='card-title text-info pt-3'>Wastewater : RFA-OD-20-015 </h6>
+                      <ul class='radx-list'>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U01DA053976-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Otakuye Conroy-Ben</span> - Wastewater Analysis of SARS CoV-2 in Tribal Communities</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U01DA053949-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Anne-Catrin Uhlemann</span> - Optimizing SARS-CoV-2 Wastewater Based Surveillance in Urban and University Campus Settings</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U01DA053941-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Helena Solo-Gabriele</span> - Development and Proof-of-Concept Implementation of the South Florida Miami RADx-rad SARS-CoV-2 Wastewater-Based Surveillance Infrastructure</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U01DA053903-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">James Keck</span> - Wastewater Assessment for Coronavirus in Kentucky: Implementing Enhanced Surveillance Technology</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U01DA053893-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">Jeff Wenzel</span> - Wastewater Detection of COVID-19</span></label></li>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="1-U01DA053899-01" /></span>
+                        <span><span class="font-weight-bold align-self-center">John Michael Ramsey</span> - Improved Scalability, Sensitivity, and Interpretability of Pathogen Detection, Including SARS-CoV-2, in Wastewater using High-Throughput, Highly Multiplexed Digital Array PCR Technology</span></label></li>
+                      </ul>
+                      <h6 class='card-title text-info pt-3'>Wastewater : PA-20-135 </h6>
+                      <ul class='radx-list'>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="3-U01LM013129-02S2" /></span>
+                        <span><span class="font-weight-bold align-self-center">Matthew Scotch</span> - Bioinformatics Framework for Wastewater-based Surveillance of Infectious Diseases</span></label></li>
+                      </ul>
+                      <h6 class='card-title text-info pt-3'>Other :  </h6>
+                      <ul class='radx-list'>
+                        <li><label class="d-flex flex-row align-middle"><span class="pr-2"><input type="checkbox" name="user[radx_projects][]" id="user_radx_projects_" value="no project" /></span>
+                        <span><span class="font-weight-bold align-self-center"></span> - no project</span></label></li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row no-margin">
+                <div class="input-field col m6 s12" style="margin-top: 55px;">
+                  <input type="submit" name="commit" value="Sign up" class="btn btn-primary" data-disable-with="Sign up" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+</form></div>
+
+
+    </main>
+    <div class="footer"></div>
+  
+  </body>
+
+<!-- Mirrored from imi.radxrad.org/users/sign_up by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Mar 2025 15:49:42 GMT -->
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-Artboard_4">
+      <rect width="80" height="80"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_4" data-name="Artboard – 4" clip-path="url(#clip-Artboard_4)">
+    <rect width="80" height="80" fill="#3e5bb9"/>
+    <path id="cloud-download-alt-solid" d="M42,47.091a7.491,7.491,0,0,0-11.164-8.871A12.518,12.518,0,0,0,7.5,44.407c0,.209.008.419.016.628A11.159,11.159,0,0,0,11.25,66.741H40a9.919,9.919,0,0,0,2-19.65ZM31.617,53.969l-8.234,8.173a1.261,1.261,0,0,1-1.766,0l-8.234-8.173a1.239,1.239,0,0,1,.883-2.117h5.109V43.167a1.249,1.249,0,0,1,1.25-1.241h3.75a1.249,1.249,0,0,1,1.25,1.241v8.685h5.109A1.239,1.239,0,0,1,31.617,53.969Z" transform="translate(15 -9)" fill="#fff"/>
+  </g>
+</svg>

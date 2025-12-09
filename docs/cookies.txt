@@ -1,0 +1,17 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.linkedin.com	TRUE	/	FALSE	1999999999	JSESSIONID	ajax:6328189678612411253
+.www.linkedin.com	TRUE	/	FALSE	1999999999	SameSite	None
+www.linkedin.com	TRUE	/	FALSE	1999999999	lang	v=2&lang=en-us
+.linkedin.com	TRUE	/	FALSE	1999999999	lidc	b=OGST09:s=O:r=O:a=O:p=O:g=3096:u=1:x=1:i=1742998858:t=1743085258:v=2:sig=AQF-r5MFCzoF2saKlowqvurwSsgUrkRK"
+.linkedin.com	TRUE	/	FALSE	1999999999	bcookie	v=2&2840629b-3b92-4847-87b3-8950a02d89f7"
+.www.linkedin.com	TRUE	/	FALSE	1999999999	bscookie	v=1&202503261538254e2229c3-01a6-4972-8306-6a50cbecf50aAQFjkoVDUBrFVa-yQVcdnjRTHUj0aS49"
+www.linkedin.com	TRUE	/	FALSE	1999999999	SameSite	None
+.twitter.com	TRUE	/	FALSE	1999999999	guest_id_marketing	v1%3A174300352817906558
+.twitter.com	TRUE	/	FALSE	1999999999	guest_id_ads	v1%3A174300352817906558
+.twitter.com	TRUE	/	FALSE	1999999999	personalization_id	v1_GsXE8Ke3GumxVn6ulnk6PQ=="
+.twitter.com	TRUE	/	FALSE	1999999999	guest_id	v1%3A174300352817906558
+.twitter.com	TRUE	/	FALSE	1999999999	__cf_bm	1GqjU4DUUmq4vdLMeQXzmYKJ3bNVxAPyIubdeiZ_yOE-1743003528-1.0.1.1-CuwIIRMD07vjWw9S6RNZcpySZ0E8LgRfhGAfsA7VA86l_gav0_CV3fSQhW8JFCcsWBmvKbsz08HNKD9Ns9pf81_FB0J_aHdOMgfYL6nJLMc
+twitter.com	TRUE	/	FALSE	1999999999	SameSite	None
+imi.radxrad.org	TRUE	/	FALSE	1999999999	_imi_cde_session	co044I8iAhqgfQdm%2FJE7lJD%2FJ4OFsIWjNK2CsR5S0X616MfJD9oOE1rVritGTUCgwiJewQXxKhRJJOfF2xe68mZ28cGTH5jscWbKh7S9zmYEBHgay6Ic5NxhM0V19l9flTuOX4Dc1ppnH3GSbG2d%2B3f7f8fLpDpOXlofZ33p7I6TWUZaPqIkCf0UPFMBSr6bE6sXcyQdiY8FQyzcEcLzspSoaKLklIdU4V3iatBrTJfuqC4NGecsNnh7mNbvvwRa1IFewXyCSESmDw%3D%3D--sGSY2tTLrcQEGYYo--owIpXaF3oygnP6ZNNz5qoQ%3D%3D
+
